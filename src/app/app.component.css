@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0e1f4; /* Fondo general en tono rosa pastel */
+    color: #505050; /* Color de texto para contraste suave */
+}
+
+h2 {
+    color: #6a7ba2; /* Azul pastel para los títulos */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input#newNotes {
+    border: 2px solid #6a7ba2; /* Borde azul pastel */
+    padding: 10px;
+    width: calc(100% - 24px); /* Ajuste de ancho con padding */
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #6a7ba2; /* Botones en azul pastel */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5c6990; /* Oscurecer botón al pasar el mouse */
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+h3 b {
+    display: block; /* Cada tarea en su propia línea */
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f9c1d9; /* Fondo rosa pastel para cada tarea */
+    border-left: 5px solid #6a7ba2; /* Borde lateral azul para resaltar */
+}
+
+h3 button {
+    background-color: #f9c1d9; /* Botón de borrar en rosa pastel */
+    margin-left: 10px;
+}
+
+h3 button:hover {
+    background-color: #f7a1c0; /* Oscurecer botón de borrar al pasar el mouse */
+}
